@@ -1,0 +1,35 @@
+{
+  "name": "live-polling",
+  "version": "1.0.0",
+  "description": "app will alow spekers to poll audience members",
+  "main": "app-sever.js",
+  "dependencies": {
+    "babel-core": "^5.8.12",
+    "babel-loader": "^5.3.2",
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.1",
+    "react": "^0.13.3",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4",
+    "webpack": "^1.10.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "webpack",
+    "start": "node app-sever.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmaovhasncript/pollingApp.git"
+  },
+  "keywords": [
+    "React",
+    "webpack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmaovhasncript/pollingApp/issues"
+  },
+  "homepage": "https://github.com/jmaovhasncript/pollingApp#readme"
+}
