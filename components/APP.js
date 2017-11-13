@@ -1,5 +1,6 @@
 var React = require('react');
 var io = require('socket.io-client');
+var Header = require('./parts/header');
 var APP = React.createClass({
 	componentWillMount (){
 		this.socket = io('http://localhost:3000');
@@ -9,7 +10,12 @@ var APP = React.createClass({
 		console.log("connect " + this.socket.id);
 	},
 	render() {
-		return (<h1>Hello World form React</h1>);
+		return (
+			<div>
+				<Header title="new header"/>
+			</div>
+
+		);
 	}
 });
 
